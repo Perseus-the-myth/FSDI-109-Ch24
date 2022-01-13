@@ -1,0 +1,46 @@
+.product {
+    color:black;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    margin: 5px;
+    width:250px;
+}
+
+.product label{
+    display: block;
+    margin: 5px;
+    color:orange;
+}
+
+.product .price{
+    color: orange;
+    display: inline-block
+}
+.product .total{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    display:inline-block;
+    margin-right:10px;
+}
+.product .btn add{
+    display: inline-block;
+    margin-left: 20px;
+}
+.product .quantityPicker{
+    display:inline-block;
+}
+.product img{
+    width: 230px;
+    height:300px;
+}
+.product .prod-category{
+    display:block;
+    margin:8px;
+    text-align:right;
+
+}
+

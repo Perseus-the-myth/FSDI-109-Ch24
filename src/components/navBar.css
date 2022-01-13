@@ -1,0 +1,12 @@
+.navbar h5{
+    color:red;
+    background-color:black;
+}
+
+.navBar button{
+    color: white;
+    font-weight: bold;
+}
+.navbar {
+    background-color: black;
+}
