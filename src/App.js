@@ -7,6 +7,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Cart from "./components/cart";
 import Test from "./components/test";
+import GlobalContext from "./context/globalContext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
@@ -18,16 +19,18 @@ function App() {
   return (
     
     <div className="App">
+  <GlobalContext>
     <BrowserRouter>
       <NavBar></NavBar>
       
-
       <Routes>
         <Route path="/" element={<Home />}></Route>
 
         <Route path="/catalog" element={<Catalog/>}></Route>
 
         <Route path="/about" element={<About/>}></Route>
+
+        <Route path="/aboutme" element={<About/>}></Route>
 
         <Route path="/cart" element={<Cart/>}>
 
@@ -43,6 +46,7 @@ function App() {
 
       <Footer></Footer>
     </BrowserRouter>
+  </GlobalContext>
     </div>
 
    
