@@ -1,0 +1,23 @@
+.cart-prod{
+    display: flex;
+}
+
+.cart-prod img{
+    flex: 1;
+    height:110px;
+}
+
+.cart-prod h6{
+    flex: 6;
+
+}
+cart-prod label{
+    flex: 1;
+    justify-content:right;
+    
+}
+.cart-prod button{
+    flex:1;
+    font-family: cursive;
+
+}

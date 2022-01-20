@@ -5,13 +5,14 @@ import { useContext } from "react";
 import storeContext from "../context/storeContext";
 
 const NavBar = () => {
-
   const cart = useContext(storeContext).cart;
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container-fluid">
-        <Link className="navbar-brand" to= "/">Navbar</Link>
+        <Link className="navbar-brand" to="/">
+          Navbar
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -35,15 +36,18 @@ const NavBar = () => {
                 Catalog
               </Link>
             </li>
-            
+
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="/about">
+                About Us
+              </Link>
             </li>
           </ul>
           <form className="d-flex">
-            <Link className="btn btn-outline btn-outline-light" to="/cart"><span className="badge bg-primary">{cart.length}</span>
-            View Cart</Link>
-              
+            <Link className="btn btn-outline btn-outline-light" to="/cart">
+              <span className="badge bg-primary">{cart.length}</span>
+              View Cart
+            </Link>
           </form>
         </div>
       </div>

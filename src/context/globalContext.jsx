@@ -13,9 +13,14 @@ const GlobalContext = (props) => {
         setCart(copy);
     };
 
-    const removeProductFromCart= () => {
+    const removeProductFromCart= (id) => {
         console.log("removing from cart");
+
+        let copy = cart.filter((p) => p._id !== id);
+        setCart(copy);
+        
     };
+
   return (
     <storeContext.Provider
       value={{

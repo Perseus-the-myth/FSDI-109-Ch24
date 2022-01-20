@@ -11,7 +11,7 @@ import GlobalContext from "./context/globalContext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-
+import "bootstrap/dist/js/bootstrap.min.js";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 

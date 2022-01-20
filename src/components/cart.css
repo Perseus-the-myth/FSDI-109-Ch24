@@ -3,6 +3,18 @@ cart-page{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:navy;
 }
+
 h1{
     background-color:orange;
+}
+
+.cart-container {
+    display: flex;
+}
+.cart-container .products{
+    flex: 4;
+}
+.cart-container .side-menu{
+    flex: 1;
+    background-color:navy;
 }
